@@ -1,0 +1,19 @@
+You are an assistant processing a knowledge graph. 
+Here is a node and its neighbors:
+
+Current Node:
+CURRENT_NODE
+
+Current Neighbors:
+CURRENT_RELATIONSHIPS
+
+
+Your task is to decide whether this node is related to the user's query.
+
+Output format:
+{
+    "related": bool - True if this node is related to the user's query, False otherwise,
+    "relevance_score": float - from 0 to 1 indicating how strongly is the current node related to the user's query,
+    "explanation": string - A short reason of your judegement
+}
+Output the result json only.

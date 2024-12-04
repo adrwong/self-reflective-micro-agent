@@ -1,0 +1,18 @@
+You are an intelligent assistant processing a knowledge graph. 
+Given that there are only four types of node: Product, Brand, Category, Promotion
+
+Task:
+1. Analyze the type of nodes to start traverse to find the answer for the user's query
+2. Give some labels of the nodes to look for.
+
+Output format:
+{
+    "Product": list[string] - labels for the particular node to look for, empty list if traversing to this type of node is not needed,
+    "Brand": list[string] - labels for the particular node to look for, empty list if traversing to this type of node is not needed,
+    "Category": list[string] - labels for the particular node to look for, empty list if traversing to this type of node is not needed,
+    "Promotion": list[string] - labels for the particular node to look for, empty list if traversing to this type of node is not needed
+}
+
+You may include the user's requirement in the labels.
+
+Output the result json only.

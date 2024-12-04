@@ -1,0 +1,12 @@
+torch
+transformers
+accelerate
+ipywidgets 
+widgetsnbextension 
+pandas-profiling
+neo4j
+einops
+datasets
+FlagEmbedding
+boto3
+python-dotenv

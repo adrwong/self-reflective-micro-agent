@@ -1,0 +1,60 @@
+{
+    "elabPromotions" : [ {
+       "code" : 147403,
+       "description" : "Buy A $1488 Get B Free $1488 Free Luggag",
+       "endDate" : "2024-12-31T15:59:00+0000",
+       "formattedRewardValue" : "",
+       "isEliteMemberPromotionFlag" : false,
+       "isEstampPromotionFlag" : false,
+       "isFlashSalePromotionFlag" : false,
+       "isMemberPromotionFlag" : true,
+       "longDescription" : "$1488 Free Luggage",
+       "priority" : 5,
+       "promotionUrl" : "/a/147403/1488-Free-Luggage",
+       "rewardUrl" : "/a/147403/1488-Free-Luggage",
+       "startDate" : "2024-11-13T16:00:00+0000",
+       "tag" : {
+          "elabPromotionDisplayType" : "TAG",
+          "elabTagCode" : "63",
+          "label" : "Free Gift Promotion Offer"
+       },
+       "title" : "$1488 Free Luggage"
+    }, {
+       "code" : 148795,
+       "description" : "Buy A $99 + 3 Unit B Get 1 Unit C EC_PC$",
+       "endDate" : "2024-12-03T15:59:00+0000",
+       "formattedRewardValue" : "",
+       "isEliteMemberPromotionFlag" : false,
+       "isEstampPromotionFlag" : false,
+       "isFlashSalePromotionFlag" : false,
+       "isMemberPromotionFlag" : false,
+       "longDescription" : "Buy 3 personal care items upon $99 free LEE KUM KEE PREMIUM SOY SAUCE 1PC",
+       "priority" : 5,
+       "promotionUrl" : "/a/148795/EC_PC99_free-112580",
+       "rewardUrl" : "/a/148795/EC_PC99_free-112580",
+       "startDate" : "2024-11-26T16:00:00+0000",
+       "tag" : {
+          "elabPromotionDisplayType" : "TAG",
+          "elabTagCode" : "181",
+          "label" : "Buy 3pcs upon $99 free gift"
+       },
+       "title" : "EC_PC$99_free 112580"
+    }, {
+       "code" : 149143,
+       "description" : "Buy A $1999 Less $250 $1999-$250",
+       "endDate" : "2024-12-17T15:59:00+0000",
+       "formattedRewardValue" : "250.00",
+       "isEliteMemberPromotionFlag" : false,
+       "isEstampPromotionFlag" : false,
+       "isFlashSalePromotionFlag" : false,
+       "isMemberPromotionFlag" : false,
+       "longDescription" : "$1999-$250, Code: WTC250",
+       "priority" : 5,
+       "promotionUrl" : "/a/149143/1999-250",
+       "rewardUrl" : "/a/149143/1999-250",
+       "startDate" : "2024-11-28T16:00:00+0000",
+       "tag" : {
+       },
+       "title" : "$1999-$250"
+    } ]
+ }

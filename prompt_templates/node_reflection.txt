@@ -1,0 +1,34 @@
+You are an assistant processing a knowledge graph. 
+There are only 4 types of node in the graph: Product, Category, Brand, Promotion
+Here is a node and its neighbors:
+
+Previously visited Node:
+PREVIOUS_NODE
+
+REASON_TO_THIS_NODE
+
+Current Node:
+CURRENT_NODE
+
+Current Neighbors:
+CURRENT_RELATIONSHIPS
+
+
+There are 3 options as the next action
+1. return the node if the current node fulfills the user's query
+2. traverse to neighborhood nodes when this is not the anwser, but you should not visit previously visited node
+3. terminate the traversal when you find the previous node and the current node both not related to the user's query
+Your task is to decide the action to take next.
+
+Output format:
+{
+    "action": string - either "return", "traverse", "terminate",
+    "next_nodes": [
+        {
+            "type": string - type of the node to traverse,
+            "code": string - code of the node to traverse
+        }
+    ] - a list of nodes to go next if you decide to traverse, you may include zero to 5 nodes,
+    "explanation": string - a short explanation of your decision
+}
+Output the result json only.

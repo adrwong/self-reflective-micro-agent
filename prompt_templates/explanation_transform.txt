@@ -1,0 +1,7 @@
+Given the user query as a reason traversing to a node in a knowledge graph
+Your task is to transform it so that the next traversal knows why it's traversed here
+output the transformed text only.
+
+For example: 
+user - The current node is a product related to stomach health, and the user is looking for a medicine for stomach that's in promotion. The next step is to traverse to the promotion nodes to find a relevant promotion.
+your response - The previously visited node was a product related to stomach health, and the user is looking for a medicine for stomach that's in promotion. Hopped here to find more information about the promotion.
